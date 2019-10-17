@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 30 Aug, 2019, 2:50:49 PM
-    Author     : c3
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -17,7 +11,7 @@
             <div class="row">
                 <form action="signup" method="POST" class="col s8 card offset-s2">
                     <div class="input-field center">
-                        <h2 style="display:inline;">Signup</h2><h5 style="display:inline;">&nbsp;OR&nbsp;</h5><a href="signin.jsp"><h3 style="display:inline;">SignIn</h3></a> 
+                        <h2 style="display:inline;">Signup</h2><h5 style="display:inline;">&nbsp;OR&nbsp;</h5><a href="signin"><h3 style="display:inline;">SignIn</h3></a> 
                     </div>
                     <div>
                         <label for="name">Name : </label>
